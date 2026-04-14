@@ -1,0 +1,46 @@
+{
+  "slug": "policy-compliance-copilot",
+  "title": "Policy Compliance Copilot",
+  "project_type": "llm",
+  "domain": "RegTech",
+  "summary": "Explain policy requirements, answer control questions, and provide compliance-friendly answer trails.",
+  "tags": [
+    "compliance",
+    "copilot",
+    "policy"
+  ],
+  "accent": "#2a9d8f",
+  "dashboard_metrics": [
+    {
+      "label": "Resolution Rate",
+      "value": "57%",
+      "delta": "+5.8%"
+    },
+    {
+      "label": "Answer Quality",
+      "value": "89%",
+      "delta": "+2.2%"
+    },
+    {
+      "label": "Ops Time Saved",
+      "value": "16h",
+      "delta": "+3h"
+    }
+  ],
+  "sample_features": {
+    "query": "Summarize the highest priority risk and recommended next step.",
+    "audience": "analytics"
+  },
+  "sample_metrics": {
+    "acquisition": 32.5,
+    "activation": 34.5,
+    "retention": 48.0,
+    "revenue": 74.5
+  },
+  "knowledge_base": [
+    "Policy Compliance Copilot is positioned as a RegTech starter that emphasizes fast iteration, clear documentation, and production-friendly interfaces.",
+    "The primary value proposition is: Explain policy requirements, answer control questions, and provide compliance-friendly answer trails.",
+    "Recommended operating model: ship a small API, add observability, validate outputs with stakeholder review, and monitor the top business KPI every week.",
+    "Typical stakeholders include analytics, operations, product, and leadership teams working on compliance, copilot, policy."
+  ]
+}
